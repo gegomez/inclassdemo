@@ -1,0 +1,111 @@
+body {
+    background-color: black;
+    color:white;
+    overflow:auto;
+}
+
+table {
+    width: 100%;
+    align-self: center;
+}
+th {
+    color: white;
+    text-align: right;
+    padding: 50px;
+    width: 800px;
+    height: 50px;
+    
+}
+
+td {
+    color: white;
+    text-align: left;
+    
+    
+}
+
+#about {
+    padding: 50px;
+    text-align: center;
+    
+}
+
+#profile {
+    padding: 50px;
+    
+}
+
+#resume {
+    padding: 50px
+}
+
+a {
+    color: white;
+    text-decoration:none;
+}
+
+a:hover{
+    font-style:italic;
+}
+
+::-webkit-scrollbar{
+    width:5px;
+}
+
+::-webkit-scrollbar-thumb{
+    background:#000;
+}
+
+#homepage{
+    margin:350 auto;
+    width:550px;
+    height:200px;
+}
+
+#hleft{
+    width:240px;
+    height:185px;
+    float:left;
+    text-align:right;
+    font-size:40px;
+    padding:15px;
+    border-right:solid white 2px;
+    line-height:2.4;
+}
+
+#hright{
+    width:240px;
+    float:right;
+    text-align:left;
+    font-size:20px;
+    line-height:.6;
+    padding:15px;
+}
+
+#aboutpage{
+    width:1000px;
+    height:550px;
+    padding:15px;
+    margin:100 auto;
+}
+
+#aleft{
+    width:450px;
+    padding:15px;
+    float:left;
+}
+
+#aright{
+    margin-top:200px;
+    width:450px;
+    padding:15px;
+    overflow:auto;
+    font-size:18px;
+    float:right;
+}
+
+#portfolio{
+    width:1000px;
+    height:550px;
+    margin: auto
+}
