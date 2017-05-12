@@ -1,7 +1,13 @@
 body {
-    background-color: black;
+    background-color: #000;
     color:white;
     overflow:auto;
+    font-family:'Old Standard TT';
+}
+
+@font-face{
+    font-family: 'Old Standard TT';
+    src: url('https://fonts.googleapis.com/css?family=Old+Standard+TT');
 }
 
 table {
@@ -58,12 +64,12 @@ a:hover{
 
 #homepage{
     margin:350 auto;
-    width:550px;
+    width:600px;
     height:200px;
 }
 
 #hleft{
-    width:240px;
+    width:290px;
     height:185px;
     float:left;
     text-align:right;
@@ -96,7 +102,6 @@ a:hover{
 }
 
 #aright{
-    margin-top:200px;
     width:450px;
     padding:15px;
     overflow:auto;
@@ -107,5 +112,5 @@ a:hover{
 #portfolio{
     width:1000px;
     height:550px;
-    margin: auto
+    margin: auto;
 }
